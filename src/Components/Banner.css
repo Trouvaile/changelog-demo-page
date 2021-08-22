@@ -1,0 +1,39 @@
+.bann{
+    background-color: #63a4ff;
+    background-image: linear-gradient(248deg, #63a4ff 0%, #83eaf1 74%);
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 5.5%;
+    position: relative;
+    z-index: 10;
+}
+.bann-row{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bann-container{
+    padding: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-size: 1.3rem!important;
+    display: flex;
+    z-index: 10;
+}
+.bann-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    align-items: center;
+    margin-left: 3.8%;
+}
+.bann-content-title{
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+.bann-content{
+    font-size: 100%;
+    text-align: justify;
+    float: left;
+}

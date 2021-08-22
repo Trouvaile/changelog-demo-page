@@ -1,0 +1,72 @@
+.blog-subscription-form{
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    width: 100%;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    border-bottom: 2px solid rgb(46, 93, 163);
+    box-shadow: 0px 1px #a8a8a8;
+}
+.blog-subscription-form-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.blog-subcription-form-message{
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;;
+    text-align: justify;
+}
+.blog-subcription-form-box{
+    background-color:  rgb(72, 136, 233);
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 3%;
+    border: 1px solid white;
+    opacity: 0.6;
+    padding: 2px;
+    display: inline;
+}
+
+.blog-subcription-form-box:hover{
+    border-color: black;
+}
+
+input{
+    background-color:  rgb(72, 136, 233);
+    margin: 10px 0px 10px 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding-left: 15%;
+    color: black;
+    border-right: 1px solid white;
+    width: 65%;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.blog-subcription-form-box button{
+    padding: 10px;
+    background-color:  rgb(72, 136, 233);
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.blog-subcription-form-box button:hover{
+    background-color: rgb(60, 120, 209);
+    transition: 0.3;
+}
