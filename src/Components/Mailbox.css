@@ -46,7 +46,6 @@ input{
     outline: none;
     font-size: 1.2rem;
     color: black;
-    border-right: 1px solid white;
     width: 65%;
 }
 
@@ -67,6 +66,7 @@ input:-webkit-autofill {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    border: 1px solid white;
 }
 
 .blog-subcription-form-box button:hover{
