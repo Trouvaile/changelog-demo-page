@@ -6,16 +6,21 @@ import emailjs from 'emailjs-com';
 function Mailbox() {
     const {t} = useTranslation()
     function sendEmail(e) {
-        e.preventDefault();
+        var email = document.getElementsByClassName("myInput")[0].value
+        if(email){
+            e.preventDefault();
     
-        emailjs.sendForm('service_i7y8x57', 'template_vd4rydi', e.target, 'user_GXIIjUrmEOoWWgywUc0tT')
-          .then((result) => {
-              alert('Mail has been sent!')
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
+            emailjs.sendForm('service_i7y8x57', 'template_vd4rydi', e.target, 'user_GXIIjUrmEOoWWgywUc0tT')
+              .then((result) => {
+                  alert('Mail has been sent!')
+                  console.log(result.text);
+              }, (error) => {
+                  console.log(error.text);
+              });
+              e.target.reset();
+        } else{
+            alert('Please give me your email!')
+        }
       }
     return (
         <div className="blog-subscription-form">
