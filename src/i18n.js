@@ -15,7 +15,8 @@ i18n
     fallbackLng: 'vi',
     debug: true,
     detection: {
-        list: ['en','vi']
+        list: ['vi','en'],
+        caches: []
     },
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

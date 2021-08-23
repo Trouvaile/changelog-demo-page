@@ -26,8 +26,8 @@ function Header() {
                         </ul>
                         <div className="change-language">
                             <select onChange={changeLanguage}>
-                                <option selected value="vi">Tiếng Việt</option>
-                                <option value="en">English</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option selected value="en">English</option>
                             </select>
                         </div>
                     </div>
