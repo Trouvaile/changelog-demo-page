@@ -10,6 +10,7 @@ function Mailbox() {
     
         emailjs.sendForm('service_i7y8x57', 'template_vd4rydi', e.target, 'user_GXIIjUrmEOoWWgywUc0tT')
           .then((result) => {
+              alert('Mail has been sent!')
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
@@ -24,7 +25,7 @@ function Mailbox() {
                 </div>
                 <div className="blog-subcription-form-box">
                     <form enctype="text/plain" onSubmit={sendEmail}>
-                        <input type="text" name="email" placeholder="Email"></input>
+                        <input className="myInput" type="text" name="email" placeholder="Email"></input>
                         <button className="Subcribe">
                             {t('Đăng ký')}
                         </button>

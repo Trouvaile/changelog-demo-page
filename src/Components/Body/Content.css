@@ -1,0 +1,40 @@
+.ver{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 20px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+.ver p{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.new p, .update p, .bug p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 2rem;
+    color: blue;
+}
+.new ul li, .update ul li, .bug ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.6;
+}
+.lnr{
+    padding-left: 60px;
+    padding-right: 20px;
+}
+.lnr-checkmark-circle::before{
+    padding-right: 10px;
+}
+.lnr-pushpin::before{
+    padding-right: 10px;
+}
+.lnr-bug::before{
+    padding-right: 10px;
+}

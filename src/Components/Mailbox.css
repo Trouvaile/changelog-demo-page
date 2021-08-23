@@ -2,7 +2,7 @@
     background-color: #63a4ff;
     background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 20px;
     height: auto;
     position: relative;
@@ -49,6 +49,10 @@ input{
     color: black;
     border-right: 1px solid white;
     width: 65%;
+}
+
+input:-webkit-autofill {
+  -webkit-background-clip: text;
 }
 
 ::placeholder {

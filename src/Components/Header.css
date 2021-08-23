@@ -9,8 +9,6 @@
 .navbar-container{
     display: flex;
     box-shadow: 0 6px 20px rgb(34 43 84 / 5%);
-    position: fixed;
-    width: 100%;
     top: 0;
     background-color: #fff;
     z-index: 1000;

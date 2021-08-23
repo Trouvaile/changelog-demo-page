@@ -5,7 +5,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-top: 5.5%;
     position: relative;
     z-index: 10;
 }
@@ -17,7 +16,7 @@
     padding: 12px;
     margin-right: 12px;
     margin-left: 12px;
-    font-size: 1.3rem!important;
+    font-size: 1rem!important;
     display: flex;
     z-index: 10;
 }
@@ -29,11 +28,11 @@
     margin-left: 3.8%;
 }
 .bann-content-title{
-    font-size: 150%;
+    font-weight: bold;
+    font-size: 200%;
     margin-bottom: 20px;
 }
 .bann-content{
-    font-size: 100%;
     text-align: justify;
     float: left;
 }
